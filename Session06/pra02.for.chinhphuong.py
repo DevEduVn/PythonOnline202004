@@ -1,5 +1,5 @@
-# 1. kiểm tra số n có phải là số chính phương không?
-
+"""
+# 3. kiểm tra số n có phải là số chính phương không?
 n = int(input("Nhập n:"))
 # xử lý
 flag = False  # Giả định n không là số chính phương
@@ -13,9 +13,9 @@ if flag == True:
 else:
     print(n, " không phải là số chính phương")
 # /== end
-
-# 2. In ra các số chính phương <=n, tính tổng
-
+"""
+# 4. In ra các số chính phương <=n, tính tổng
+n = int(input("Nhập n:"))
 print("Dãy các số chính phương <=:", n)
 tong = 0
 for i in range(1, n+1):

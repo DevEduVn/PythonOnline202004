@@ -1,5 +1,5 @@
 # 1. kiểm tra số n có phải là số nguyên tố không?
-
+"""
 n = int(input("Nhập n:"))
 # xử lý
 flag = True  # Giả định n là số nguyên tố
@@ -13,9 +13,10 @@ if flag == True:
 else:
     print(n, " không phải là số nguyên tố")
 # /== end
+"""
 
 # 2. In ra các số nguyên tố <=n, tính tổng
-
+n = int(input("Nhập n:"))
 print("Dãy các số nguyên tố <=:", n)
 tong = 0
 for i in range(1, n+1):
