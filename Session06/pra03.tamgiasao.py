@@ -1,4 +1,4 @@
-# Sử dụng vòng lặp lồng nhau để in tam giá sao
+# 5. Sử dụng vòng lặp lồng nhau để in tam giá sao (*)
 """
 input n=5
 output:
@@ -27,6 +27,7 @@ for i in range(1, n+1):
     print(end="\n\n")
 # /=end ====================================================
 """
+# 6. Sử dụng vòng lặp lồng nhau để in tam giá sao (*)
 input n=5
 output:
 n=5
@@ -52,16 +53,16 @@ i=2
 i=5
 	=> j lặp n+1-i = 5+1-5 = 1 vòng
 	*
-____________________________________________________________________
+____________________________________
 """
-print(end="\n")
+n = int(input("Nhập n="))
 print("n=", n)
 for i in range(1, n+1):
     for j in range(1, n+1-i+1):
         print(" * ", end="")
     print(end="\n\n")
 # /End for tam giác 2
-# /=end ====================================================
+# /=end ===========================
 
 # /Begin Tam giác 3
 """

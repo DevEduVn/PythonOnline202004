@@ -39,3 +39,5 @@ print("Sort:")
 lstNum.sort()
 lstNum.reverse()
 print(lstNum)
+
+print("HA "*3)
