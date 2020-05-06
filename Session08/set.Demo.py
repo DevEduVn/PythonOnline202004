@@ -9,5 +9,7 @@ print(set1)
 for item in set1:
     print(item)
 
+"""
 for x in range(0, len(set1)):
     print(set1[x])
+"""
